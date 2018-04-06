@@ -124,8 +124,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.admindocs',
     'django.contrib.sites',
-    'actstream.runtests.testapp',
-    'actstream.runtests.testapp_nested',
+    'testapp',
+    'testapp_nested',
     'actstream',
 )
 
