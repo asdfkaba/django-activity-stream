@@ -19,7 +19,7 @@ env:
     - TOX_ENV=py27-dj1.11-mysql
     - TOX_ENV=coverage
 install:
-  - pip install tox coveralls psycopg2
+  - pip install tox coveralls
 services:
   - mysql
   - postgresql  
