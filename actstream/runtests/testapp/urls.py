@@ -5,6 +5,7 @@ except ImportError:
 
 from actstream import feeds
 
+app_name = 'testapp'
 urlpatterns = [
     url(r'^custom/(?P<verb>[-\w\s]+)/$',
         feeds.CustomJSONActivityFeed.as_view(name='testbar'),
