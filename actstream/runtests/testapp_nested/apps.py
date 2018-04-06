@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class TestappNestedConfig(AppConfig):
-    name = 'testapp_nested'
+    name = 'actstream.runtests.testapp_nested'
 
     def ready(self):
         from actstream.registry import register
