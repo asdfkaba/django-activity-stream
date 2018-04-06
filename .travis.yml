@@ -16,10 +16,10 @@ env:
     - TOX_ENV=py35-dj1.11-sqlite
     - TOX_ENV=py27-dj1.11-sqlite
     - TOX_ENV=py35-dj1.11-mysql
-    - TOX_ENV=py27-dj1.11-mysql       
+    - TOX_ENV=py27-dj1.11-mysql
     - TOX_ENV=coverage
 install:
-  - pip install tox coveralls
+  - pip install tox coveralls psycopg2
 services:
   - mysql
   - postgresql  
