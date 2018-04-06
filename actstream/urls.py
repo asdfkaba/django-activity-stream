@@ -5,7 +5,6 @@ except ImportError:
 
 from actstream import feeds, views
 
-app_name = 'actstream'
 urlpatterns = [
     # User feeds
     url(r'^feed/$', feeds.UserActivityFeed(), name='actstream_feed'),
